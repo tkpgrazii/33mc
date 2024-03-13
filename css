@@ -15,8 +15,11 @@
         color: var(--branco);
         font-family: 'Chakra Petch', sans-serif;
     }
-    :root {
-        --cor-fundo: #CCCCCC;
-    }
     
+    .conteudo-principal{
+       display: flex;
+       -ms-flex-direction: column;
+       justify-content: center;
+       align-items: center; 
+    }
     
