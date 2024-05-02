@@ -68,3 +68,39 @@
             border-radius: 0 40px 0 0;
         }
     }
+
+    .aba-conteudo{
+        width: 100px;
+        height: 100px;
+        background: #b5b;
+        margin: 10px;
+      }
+      
+      .ativo{
+        display: block;
+      }
+      
+      <p class="texto">Este é o primeiro parágrafo.</p>
+        <p class="texto">Este é o segundo parágrafo.</p>
+        <p class="texto">Este é o terceiro parágrafo.</p>
+
+        <button class="botao">Escuro</button>
+        .fundo-preto{
+            background: black;
+            color: white;
+          }
+          .botao{
+            padding: 2em; 
+          }
+
+          const botao = document.querySelectorAll(".botao");
+`__________________________________`
+for (let i=0;i<botao.length;i++){
+ `__________________`
+    if(i==0){
+        fundo.classList.remove("fundo-branco");
+        fundo.classList.add("fundo-preto");
+    } else{
+      fundo.classList.remove("fundo-preto");
+     `__________________`
+    }  }  }
